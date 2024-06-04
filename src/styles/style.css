@@ -1,0 +1,77 @@
+.form {
+    margin: 20px;
+  }
+  
+  .form input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+.form textarea {
+  display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+  .aboutContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .imageContainer {
+    max-width: 40rem;
+    min-width: 20rem;
+    padding: 2rem;
+  }
+  img {
+    width: 100%;
+  }
+
+  .aboutContent {
+    max-width: 40rem;
+    min-width: 20rem;
+    padding: 2rem;
+  }
+
+  .About {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-header-menu {
+    
+  }
+
+  .Nav {
+    display: flex;
+padding: 2rem;
+justify-content: flex-start;
+width: 100%;
+margin-top: 0;
+border: solid 3px yellow;
+  }
+
+  .project-card {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: calc(33.333% - 20px); /* Adjusting for margins */
+    margin: 10px;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project-card h3 {
+    text-align: center;
+    padding: 10px;
+  }
