@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/style.css'; // Make sure to import your CSS file
+import '../styles/style.css'; 
 
 const PortfolioCard = ({ project }) => {
   return (

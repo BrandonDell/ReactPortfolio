@@ -1,20 +1,22 @@
-import React from 'react'
-import PortfolioCard from './PortfolioCard'
-import '../styles/style.css'
+import React from 'react';
+import PortfolioCard from './PortfolioCard';
+import '../styles/style.css';
+import Mojito from '../assets/images/Mojito.jpg';
+import firstPortfolio from '../assets/images/firstPortfolio.png'
 
 
 const projects = [
     {
-      title: 'Project 1',
-      image: 'path/to/project1/image.jpg',
-      repository: 'https://github.com/user/project1',
-      deployed: 'https://deployed-project1.com'
+      title: 'Cocktail Compass',
+      image: Mojito,
+      repository: 'https://github.com/BrandonDell/Cocktail_Compass',
+      deployed: 'https://brandondell.github.io/Cocktail_Compass/'
     },
     {
-      title: 'Project 2',
-      image: 'path/to/project2/image.jpg',
-      repository: 'https://github.com/user/project2',
-      deployed: 'https://deployed-project2.com'
+      title: 'First Portfolio',
+      image: firstPortfolio,
+      repository: 'https://github.com/BrandonDell/BDC-Portfolio',
+      deployed: 'https://brandondell.github.io/BDC-Portfolio/'
     },
     {
       title: 'Project 3',

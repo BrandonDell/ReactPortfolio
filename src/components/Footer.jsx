@@ -1,31 +1,23 @@
-import React from 'react';
-import '../styles/Footer.css';
+import { CONTACT } from '../constants';
 
-function Footer() {
+const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer>
-      <div>
-        <a
-          href="https://github.com/BrandonDell"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          My Github
+    <div className="border-b border-neutral-900 pb-20">
+      <h2 className="my-10 text-center text-4xl">Get In Touch</h2>
+      <div className="text-center tracking-tighter">
+        <p className="my-4">{CONTACT.address}</p>
+        <p className="my-4">{CONTACT.phoneNo}</p>
+        <a href="#" className="border-b" target="_blank" rel="noopener noreferrer">
+          {CONTACT.email}
         </a>
-        <div>
-          <a
-            href="https://www.linkedin.com/in/brandondellcioppia/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            My LinkedIn
-          </a>
-        </div>
         <p>Copyright {currentYear}</p>
       </div>
-    </footer>
+    </div>
+  
   );
-}
+};
 
 export default Footer;
+
+
