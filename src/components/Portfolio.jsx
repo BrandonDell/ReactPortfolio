@@ -24,7 +24,7 @@ const projects = [
       repository: 'https://github.com/user/project3',
       deployed: 'https://deployed-project3.com'
     },
-    // Add more projects as needed
+    
   ];
 const Portfolio = () => {
   return (
